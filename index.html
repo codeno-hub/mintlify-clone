@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mintlify — The Intelligent Knowledge Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════ NAV ═══════════════════════════════════════ -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L4 6V12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12V6L12 2Z" fill="#0D9373"/>
+          <path d="M12 6L8 8V12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12V8L12 6Z" fill="white" opacity="0.9"/>
+        </svg>
+        <span class="nav-logo-text">mintlify</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#" class="nav-link">Customers</a>
+        <a href="#" class="nav-link">Pricing</a>
+        <a href="#" class="nav-link">Changelog</a>
+        <a href="#" class="nav-link">Blog</a>
+        <a href="#" class="nav-link">Enterprise</a>
+        <a href="#" class="nav-link">Docs
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#" class="btn-ghost">Log in</a>
+        <a href="#" class="btn-primary-sm">Get started free</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Introducing AI-native documentation</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5.5 3.5L8.5 7L5.5 10.5" stroke="#0D9373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+
+      <h1 class="hero-headline">
+        The Intelligent<br />Knowledge Platform
+      </h1>
+      <p class="hero-sub">
+        AI-native, beautiful out-of-the-box, and built for developers.<br />
+        Documentation that keeps pace with your product.
+      </p>
+
+      <form class="hero-form" onsubmit="return false;">
+        <input type="email" class="hero-input" placeholder="Enter your work email" />
+        <button type="submit" class="btn-primary">Get started free</button>
+      </form>
+      <p class="hero-note">No credit card required · Free tier available</p>
+
+      <!-- Browser Mockup -->
+      <div class="hero-browser">
+        <div class="browser-bar">
+          <span class="dot dot-red"></span>
+          <span class="dot dot-yellow"></span>
+          <span class="dot dot-green"></span>
+          <div class="browser-url">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="6" r="5" stroke="#9ca3af" stroke-width="1"/><path d="M6 1C6 1 4 3.5 4 6C4 8.5 6 11 6 11C6 11 8 8.5 8 6C8 3.5 6 1 6 1Z" stroke="#9ca3af" stroke-width="1"/><path d="M1 6H11" stroke="#9ca3af" stroke-width="1"/></svg>
+            <span>docs.yourcompany.com</span>
+          </div>
+        </div>
+        <div class="browser-content">
+          <div class="doc-layout">
+            <!-- Left sidebar -->
+            <aside class="doc-sidebar-mini">
+              <div class="sidebar-logo-mini">
+                <div class="sb-logo-icon"></div>
+                <span>Acme Docs</span>
+              </div>
+              <div class="sidebar-section-label">Getting Started</div>
+              <div class="sidebar-item active">Quickstart</div>
+              <div class="sidebar-item">Installation</div>
+              <div class="sidebar-item">Configuration</div>
+              <div class="sidebar-section-label">API Reference</div>
+              <div class="sidebar-item">Authentication</div>
+              <div class="sidebar-item">Endpoints</div>
+              <div class="sidebar-item">Webhooks</div>
+              <div class="sidebar-section-label">Guides</div>
+              <div class="sidebar-item">Best Practices</div>
+              <div class="sidebar-item">Examples</div>
+            </aside>
+            <!-- Main content -->
+            <main class="doc-main-mini">
+              <div class="doc-breadcrumb-mini">Getting Started / Quickstart</div>
+              <h2 class="doc-title-mini">Quickstart</h2>
+              <p class="doc-p-mini">Get your documentation up and running in under five minutes. Connect your repository and deploy instantly.</p>
+              <div class="doc-cards-mini">
+                <div class="doc-card-mini">
+                  <div class="card-icon-mini green">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M2 4H14M2 8H10M2 12H12" stroke="#0D9373" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </div>
+                  <div>
+                    <div class="card-mini-title">Quickstart</div>
+                    <div class="card-mini-sub">Deploy docs in minutes</div>
+                  </div>
+                </div>
+                <div class="doc-card-mini">
+                  <div class="card-icon-mini blue">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="3" width="12" height="10" rx="2" stroke="#3b82f6" stroke-width="1.5"/><path d="M5 7L7 9L11 5" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  </div>
+                  <div>
+                    <div class="card-mini-title">Components</div>
+                    <div class="card-mini-sub">100+ built-in components</div>
+                  </div>
+                </div>
+                <div class="doc-card-mini">
+                  <div class="card-icon-mini purple">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2L10 6H14L11 9L12 13L8 11L4 13L5 9L2 6H6L8 2Z" stroke="#8b5cf6" stroke-width="1.5" stroke-linejoin="round"/></svg>
+                  </div>
+                  <div>
+                    <div class="card-mini-title">AI Features</div>
+                    <div class="card-mini-sub">Intelligent search & chat</div>
+                  </div>
+                </div>
+              </div>
+              <div class="doc-code-mini">
+                <div class="code-bar-mini">
+                  <span class="code-lang">bash</span>
+                  <span class="code-copy">Copy</span>
+                </div>
+                <pre class="code-content-mini"><span class="code-green">$</span> npx mintlify dev</pre>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ TRUSTED BY ═══════════════════════════════════════ -->
+  <section class="trusted">
+    <div class="container">
+      <p class="trusted-label">Trusted by the world's best developer teams</p>
+      <div class="logos-row">
+        <div class="logo-item">
+          <!-- Anthropic -->
+          <svg width="110" height="26" viewBox="0 0 110 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.3 4L22 22H18.8L17.3 18H9.7L8.2 22H5L11.7 4H15.3ZM13.5 8.2L11 15H16L13.5 8.2Z" fill="#6b7280"/>
+            <path d="M24 4H27V22H24V4Z" fill="#6b7280"/>
+            <text x="30" y="17" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#6b7280">anthropic</text>
+          </svg>
+        </div>
+        <div class="logo-item">
+          <svg width="90" height="26" viewBox="0 0 90 26" fill="none">
+            <circle cx="13" cy="13" r="9" stroke="#6b7280" stroke-width="1.8"/>
+            <path d="M9 13C9 10.8 10.8 9 13 9C15.2 9 17 10.8 17 13" stroke="#6b7280" stroke-width="1.8"/>
+            <text x="26" y="17" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#6b7280">Coinbase</text>
+          </svg>
+        </div>
+        <div class="logo-item">
+          <svg width="80" height="26" viewBox="0 0 80 26" fill="none">
+            <rect x="4" y="6" width="16" height="14" rx="3" stroke="#6b7280" stroke-width="1.8"/>
+            <path d="M9 13H15M12 10V16" stroke="#6b7280" stroke-width="1.8" stroke-linecap="round"/>
+            <text x="24" y="17" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#6b7280">Cursor</text>
+          </svg>
+        </div>
+        <div class="logo-item">
+          <svg width="110" height="26" viewBox="0 0 110 26" fill="none">
+            <path d="M13 4C8.03 4 4 8.03 4 13C4 17.97 8.03 22 13 22C17.97 22 22 17.97 22 13" stroke="#6b7280" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M18 4L22 8L18 12" stroke="#6b7280" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="26" y="17" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#6b7280">Perplexity</text>
+          </svg>
+        </div>
+        <div class="logo-item">
+          <svg width="80" height="26" viewBox="0 0 80 26" fill="none">
+            <path d="M4 7H20M4 13H16M4 19H18" stroke="#6b7280" stroke-width="1.8" stroke-linecap="round"/>
+            <text x="24" y="17" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#6b7280">Vercel</text>
+          </svg>
+        </div>
+        <div class="logo-item">
+          <svg width="90" height="26" viewBox="0 0 90 26" fill="none">
+            <path d="M13 4L7 22H10.5L13 15L15.5 22H19L13 4Z" fill="#6b7280"/>
+            <text x="22" y="17" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#6b7280">HubSpot</text>
+          </svg>
+        </div>
+        <div class="logo-item">
+          <svg width="90" height="26" viewBox="0 0 90 26" fill="none">
+            <rect x="4" y="7" width="8" height="12" rx="1.5" fill="#6b7280" opacity="0.7"/>
+            <rect x="14" y="4" width="8" height="15" rx="1.5" fill="#6b7280"/>
+            <text x="26" y="17" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#6b7280">PayPal</text>
+          </svg>
+        </div>
+        <div class="logo-item">
+          <svg width="90" height="26" viewBox="0 0 90 26" fill="none">
+            <circle cx="8" cy="13" r="5" stroke="#6b7280" stroke-width="1.8"/>
+            <circle cx="18" cy="13" r="5" stroke="#6b7280" stroke-width="1.8"/>
+            <text x="26" y="17" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#6b7280">Replit</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ DOC PREVIEW SECTION ═══════════════════════════════════════ -->
+  <section class="doc-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Documentation</div>
+        <h2 class="section-title">Beautiful docs, zero effort</h2>
+        <p class="section-sub">Write in Markdown, ship world-class documentation. Mintlify handles design, search, and hosting so you can focus on content.</p>
+      </div>
+      <div class="doc-preview-wrap">
+        <!-- Sidebar -->
+        <aside class="doc-sidebar">
+          <div class="sidebar-search">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="6" cy="6" r="4.5" stroke="#9ca3af" stroke-width="1.3"/><path d="M9.5 9.5L12 12" stroke="#9ca3af" stroke-width="1.3" stroke-linecap="round"/></svg>
+            <span>Search docs...</span>
+            <kbd>⌘K</kbd>
+          </div>
+          <div class="sb-group">
+            <div class="sb-group-label">Getting Started</div>
+            <a href="#" class="sb-link active">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 2H12V12H2V2Z" rx="1" stroke="#0D9373" stroke-width="1.3"/><path d="M4 5H10M4 7H8M4 9H9" stroke="#0D9373" stroke-width="1.3" stroke-linecap="round"/></svg>
+              Quickstart
+            </a>
+            <a href="#" class="sb-link">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="5" stroke="#9ca3af" stroke-width="1.3"/><path d="M7 4V7L9 9" stroke="#9ca3af" stroke-width="1.3" stroke-linecap="round"/></svg>
+              Installation
+            </a>
+            <a href="#" class="sb-link">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 4H12M4 7H10M6 10H8" stroke="#9ca3af" stroke-width="1.3" stroke-linecap="round"/></svg>
+              Configuration
+            </a>
+          </div>
+          <div class="sb-group">
+            <div class="sb-group-label">Components</div>
+            <a href="#" class="sb-link">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><rect x="2" y="2" width="4" height="4" rx="0.5" stroke="#9ca3af" stroke-width="1.3"/><rect x="8" y="2" width="4" height="4" rx="0.5" stroke="#9ca3af" stroke-width="1.3"/><rect x="2" y="8" width="4" height="4" rx="0.5" stroke="#9ca3af" stroke-width="1.3"/><rect x="8" y="8" width="4" height="4" rx="0.5" stroke="#9ca3af" stroke-width="1.3"/></svg>
+              Overview
+            </a>
+            <a href="#" class="sb-link">Cards</a>
+            <a href="#" class="sb-link">Code Blocks</a>
+            <a href="#" class="sb-link">Callouts</a>
+            <a href="#" class="sb-link">Tabs</a>
+          </div>
+          <div class="sb-group">
+            <div class="sb-group-label">API Reference</div>
+            <a href="#" class="sb-link">Authentication</a>
+            <a href="#" class="sb-link">Endpoints</a>
+            <a href="#" class="sb-link">Webhooks</a>
+            <a href="#" class="sb-link">Errors</a>
+          </div>
+        </aside>
+
+        <!-- Main Doc Content -->
+        <div class="doc-main">
+          <div class="doc-crumb">Getting Started / Quickstart</div>
+          <h2 class="doc-main-title">Quickstart</h2>
+          <p class="doc-main-intro">Set up and deploy your documentation site in under 5 minutes. No configuration required.</p>
+
+          <div class="doc-cards-grid">
+            <div class="doc-feature-card">
+              <div class="dfc-icon" style="background:#dcfce7; color:#16a34a;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5H17M3 10H13M3 15H15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="dfc-title">Write in Markdown</h3>
+              <p class="dfc-text">Author docs in familiar Markdown or MDX. Full React component support for interactive content.</p>
+            </div>
+            <div class="doc-feature-card">
+              <div class="dfc-icon" style="background:#dbeafe; color:#2563eb;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 3L3 7V13L10 17L17 13V7L10 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 class="dfc-title">Git-based workflow</h3>
+              <p class="dfc-text">Connect your GitHub repo. Every push auto-deploys your docs with zero configuration.</p>
+            </div>
+            <div class="doc-feature-card">
+              <div class="dfc-icon" style="background:#faf5ff; color:#7c3aed;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M10 3V5M10 15V17M3 10H5M15 10H17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              </div>
+              <h3 class="dfc-title">AI-powered search</h3>
+              <p class="dfc-text">Intelligent search understands context. Users find answers instantly with natural language queries.</p>
+            </div>
+            <div class="doc-feature-card">
+              <div class="dfc-icon" style="background:#fff7ed; color:#ea580c;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="3" y="3" width="14" height="14" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <h3 class="dfc-title">OpenAPI Support</h3>
+              <p class="dfc-text">Generate beautiful API reference from your OpenAPI spec. Interactive playground included.</p>
+            </div>
+          </div>
+
+          <div class="doc-step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h3 class="step-title">Install the CLI</h3>
+              <div class="code-block">
+                <div class="code-header">
+                  <span class="code-lang-tag">bash</span>
+                  <button class="code-copy-btn">Copy</button>
+                </div>
+                <pre><code><span class="tok-prompt">$</span> npm i -g mintlify</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <div class="doc-step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h3 class="step-title">Start the dev server</h3>
+              <div class="code-block">
+                <div class="code-header">
+                  <span class="code-lang-tag">bash</span>
+                  <button class="code-copy-btn">Copy</button>
+                </div>
+                <pre><code><span class="tok-prompt">$</span> mintlify dev</code></pre>
+              </div>
+            </div>
+          </div>
+
+          <div class="doc-callout">
+            <div class="callout-icon">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#0D9373" stroke-width="1.5"/><path d="M8 5V8M8 11H8.01" stroke="#0D9373" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <div class="callout-content">
+              <strong>Tip:</strong> Requires Node.js 18 or higher. Run <code class="inline-code">node -v</code> to check your version.
+            </div>
+          </div>
+        </div>
+
+        <!-- Right TOC -->
+        <div class="doc-toc">
+          <div class="toc-label">On this page</div>
+          <a href="#" class="toc-link active">Write in Markdown</a>
+          <a href="#" class="toc-link">Git-based workflow</a>
+          <a href="#" class="toc-link">AI search</a>
+          <a href="#" class="toc-link">Install the CLI</a>
+          <a href="#" class="toc-link">Start dev server</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FEATURES ═══════════════════════════════════════ -->
+  <section class="features-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Features</div>
+        <h2 class="section-title">Everything your docs need</h2>
+        <p class="section-sub">From beautiful themes to powerful AI — Mintlify gives you the full toolkit for exceptional documentation.</p>
+      </div>
+
+      <!-- Feature 1: Beautiful by default -->
+      <div class="feature-row">
+        <div class="feature-text">
+          <div class="feature-tag green">Design</div>
+          <h3 class="feature-heading">Beautiful out-of-the-box</h3>
+          <p class="feature-desc">Choose from stunning pre-built themes or fully customize your docs with global CSS. Your brand, your style — without the design work.</p>
+          <ul class="feature-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              6 pre-built themes
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Full CSS customization
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Dark mode support
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Custom fonts & branding
+            </li>
+          </ul>
+          <a href="#" class="feature-link">Explore themes →</a>
+        </div>
+        <div class="feature-visual">
+          <div class="theme-cards">
+            <div class="theme-card tc-dark">
+              <div class="tc-bar">
+                <div class="tc-dots"><span></span><span></span><span></span></div>
+              </div>
+              <div class="tc-body">
+                <div class="tc-sidebar">
+                  <div class="tc-sb-logo"></div>
+                  <div class="tc-sb-item active-dark"></div>
+                  <div class="tc-sb-item"></div>
+                  <div class="tc-sb-item"></div>
+                </div>
+                <div class="tc-content">
+                  <div class="tc-h1 dark-h1"></div>
+                  <div class="tc-p dark-p"></div>
+                  <div class="tc-p dark-p short"></div>
+                  <div class="tc-code dark-code">
+                    <div class="tc-code-line"></div>
+                    <div class="tc-code-line short"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="theme-label">Dark Theme</div>
+            </div>
+            <div class="theme-card tc-light">
+              <div class="tc-bar light-bar">
+                <div class="tc-dots"><span class="ld"></span><span class="ld"></span><span class="ld"></span></div>
+              </div>
+              <div class="tc-body">
+                <div class="tc-sidebar light-sb">
+                  <div class="tc-sb-logo light-logo"></div>
+                  <div class="tc-sb-item active-light"></div>
+                  <div class="tc-sb-item litem"></div>
+                  <div class="tc-sb-item litem"></div>
+                </div>
+                <div class="tc-content">
+                  <div class="tc-h1 light-h1"></div>
+                  <div class="tc-p light-p"></div>
+                  <div class="tc-p light-p short"></div>
+                  <div class="tc-code light-code">
+                    <div class="tc-code-line lline"></div>
+                    <div class="tc-code-line lline short"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="theme-label light-label">Light Theme</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 2: AI Assistant -->
+      <div class="feature-row reverse">
+        <div class="feature-text">
+          <div class="feature-tag purple">AI</div>
+          <h3 class="feature-heading">Built-in AI assistant</h3>
+          <p class="feature-desc">Your docs become a self-service engine. The AI assistant answers questions from your documentation, eliminating repetitive support tickets.</p>
+          <ul class="feature-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Natural language search
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Contextual follow-ups
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Cited, accurate answers
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Auto-maintenance suggestions
+            </li>
+          </ul>
+          <a href="#" class="feature-link">See AI features →</a>
+        </div>
+        <div class="feature-visual">
+          <div class="ai-chat-mockup">
+            <div class="chat-header">
+              <div class="chat-header-icon">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2L10 6H14L11 9L12 13L8 11L4 13L5 9L2 6H6L8 2Z" fill="#0D9373"/></svg>
+              </div>
+              <span>Ask AI</span>
+            </div>
+            <div class="chat-body">
+              <div class="chat-msg user-msg">How do I authenticate with the API?</div>
+              <div class="chat-msg ai-msg">
+                <div class="ai-msg-header">
+                  <div class="ai-avatar">M</div>
+                  <span>Mintlify AI</span>
+                </div>
+                <p>To authenticate, include your API key in the <code>Authorization</code> header of every request:</p>
+                <div class="mini-code">Authorization: Bearer YOUR_API_KEY</div>
+                <div class="chat-source">Source: Authentication docs →</div>
+              </div>
+            </div>
+            <div class="chat-input">
+              <input type="text" placeholder="Ask a follow-up question..." readonly />
+              <button>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7H12M8 3L12 7L8 11" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature 3: API Playground -->
+      <div class="feature-row">
+        <div class="feature-text">
+          <div class="feature-tag blue">API</div>
+          <h3 class="feature-heading">Interactive API playground</h3>
+          <p class="feature-desc">Let developers test your API directly in the docs. Auto-generated from your OpenAPI spec — always in sync, never stale.</p>
+          <ul class="feature-list">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              OpenAPI 3.x support
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Live request/response
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Code generation in 12 languages
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8L6 11L13 4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Auto-sync with your spec
+            </li>
+          </ul>
+          <a href="#" class="feature-link">Explore API reference →</a>
+        </div>
+        <div class="feature-visual">
+          <div class="api-playground">
+            <div class="api-pg-header">
+              <div class="method-badge get">GET</div>
+              <div class="api-endpoint">/v1/users/{id}</div>
+              <button class="try-btn">Try it</button>
+            </div>
+            <div class="api-pg-section">
+              <div class="api-pg-label">Parameters</div>
+              <div class="api-param">
+                <span class="param-name">id</span>
+                <span class="param-type">string</span>
+                <span class="param-required">required</span>
+              </div>
+              <div class="api-param">
+                <span class="param-name">include</span>
+                <span class="param-type">string[]</span>
+                <span class="param-optional">optional</span>
+              </div>
+            </div>
+            <div class="api-pg-section">
+              <div class="api-pg-label">Response <span class="status-200">200</span></div>
+              <pre class="api-response"><code>{
+  <span class="jk">"id"</span>: <span class="js">"usr_8f3h2k"</span>,
+  <span class="jk">"name"</span>: <span class="js">"Alice Johnson"</span>,
+  <span class="jk">"email"</span>: <span class="js">"alice@example.com"</span>,
+  <span class="jk">"created_at"</span>: <span class="js">"2024-01-15"</span>
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ AI ASSISTANT UI ═══════════════════════════════════════ -->
+  <section class="assistant-section">
+    <div class="assistant-bg"></div>
+    <div class="container">
+      <div class="assistant-header">
+        <div class="section-badge">Intelligent Assistant</div>
+        <h2 class="section-title">Your documentation,<br />supercharged with AI</h2>
+        <p class="section-sub">Mintlify's AI doesn't just answer questions — it helps you maintain, improve, and scale your documentation automatically.</p>
+      </div>
+      <div class="assistant-ui-wrap">
+        <div class="assistant-sidebar-features">
+          <div class="asf-item active-asf">
+            <div class="asf-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="7" stroke="#0D9373" stroke-width="1.6"/><path d="M7 10L9 12L13 8" stroke="#0D9373" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <div class="asf-title">Auto-fix stale docs</div>
+              <div class="asf-desc">AI detects outdated content and suggests accurate updates</div>
+            </div>
+          </div>
+          <div class="asf-item">
+            <div class="asf-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 3L12.5 8H17.5L13.5 11.5L15 16.5L10 13.5L5 16.5L6.5 11.5L2.5 8H7.5L10 3Z" stroke="#6b7280" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <div class="asf-title">Changelog generation</div>
+              <div class="asf-desc">Automatically draft changelogs from git commits</div>
+            </div>
+          </div>
+          <div class="asf-item">
+            <div class="asf-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 10C3 6.13 6.13 3 10 3C13.87 3 17 6.13 17 10" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round"/><path d="M10 7V10L12 12" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <div class="asf-title">Writing improvements</div>
+              <div class="asf-desc">Polish content for clarity and consistency at scale</div>
+            </div>
+          </div>
+          <div class="asf-item">
+            <div class="asf-icon">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 4H16V16H4V4Z" rx="1" stroke="#6b7280" stroke-width="1.6"/><path d="M8 8H12M8 11H11" stroke="#6b7280" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <div class="asf-title">Content analytics</div>
+              <div class="asf-desc">Understand what readers search for and where they drop off</div>
+            </div>
+          </div>
+        </div>
+        <div class="assistant-ui-main">
+          <div class="aui-window">
+            <div class="aui-topbar">
+              <div class="aui-dots"><span></span><span></span><span></span></div>
+              <div class="aui-title-bar">AI Assistant — Stale Content Detection</div>
+            </div>
+            <div class="aui-body">
+              <div class="aui-alert">
+                <div class="aui-alert-icon">⚠️</div>
+                <div>
+                  <div class="aui-alert-title">3 pages may have outdated content</div>
+                  <div class="aui-alert-sub">Based on recent changes in your codebase</div>
+                </div>
+              </div>
+              <div class="aui-page-item">
+                <div class="aui-page-info">
+                  <div class="aui-page-name">authentication.mdx</div>
+                  <div class="aui-page-reason">API endpoint changed from v1 to v2</div>
+                </div>
+                <div class="aui-actions">
+                  <button class="aui-btn-review">Review</button>
+                  <button class="aui-btn-fix">Auto-fix</button>
+                </div>
+              </div>
+              <div class="aui-page-item">
+                <div class="aui-page-info">
+                  <div class="aui-page-name">quickstart.mdx</div>
+                  <div class="aui-page-reason">Installation command updated</div>
+                </div>
+                <div class="aui-actions">
+                  <button class="aui-btn-review">Review</button>
+                  <button class="aui-btn-fix">Auto-fix</button>
+                </div>
+              </div>
+              <div class="aui-page-item">
+                <div class="aui-page-info">
+                  <div class="aui-page-name">webhooks.mdx</div>
+                  <div class="aui-page-reason">New required field: idempotency_key</div>
+                </div>
+                <div class="aui-actions">
+                  <button class="aui-btn-review">Review</button>
+                  <button class="aui-btn-fix">Auto-fix</button>
+                </div>
+              </div>
+              <div class="aui-footer">
+                <span class="aui-footer-note">Powered by Mintlify AI · Checks run automatically on every push</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ ENTERPRISE ═══════════════════════════════════════ -->
+  <section class="enterprise-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge dark">Enterprise</div>
+        <h2 class="section-title">Built for scale</h2>
+        <p class="section-sub">Enterprise-grade security, compliance, and control — without sacrificing developer experience.</p>
+      </div>
+      <div class="enterprise-grid">
+        <div class="ent-card">
+          <div class="ent-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="11" width="18" height="11" rx="2" stroke="#0D9373" stroke-width="1.8"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="16" r="1.5" fill="#0D9373"/></svg>
+          </div>
+          <h3 class="ent-title">Security & SSO</h3>
+          <p class="ent-desc">SAML-based Single Sign-On with major identity providers. Role-based access control for your entire team.</p>
+        </div>
+        <div class="ent-card">
+          <div class="ent-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 3L4 7V13C4 17.42 7.58 21 12 21C16.42 21 20 17.42 20 13V7L12 3Z" stroke="#0D9373" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12L11 14L15 10" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="ent-title">SOC 2 Compliant</h3>
+          <p class="ent-desc">SOC 2 Type II certified. In progress for ISO 27001 and GDPR compliance to meet your enterprise requirements.</p>
+        </div>
+        <div class="ent-card">
+          <div class="ent-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#0D9373" stroke-width="1.8"/><path d="M8 12C8 9.79 9.79 8 12 8C14.21 8 16 9.79 16 12" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round"/><path d="M12 16V12" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="ent-title">Private Documentation</h3>
+          <p class="ent-desc">Protect sensitive content with authentication. Support for OAuth, universal passwords, and Mintlify dashboard auth.</p>
+        </div>
+        <div class="ent-card">
+          <div class="ent-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 12H21M3 6H21M3 18H15" stroke="#0D9373" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="ent-title">Custom Domain</h3>
+          <p class="ent-desc">Host your docs at docs.yourcompany.com. Full white-labeling with custom favicon, fonts, and branding.</p>
+        </div>
+        <div class="ent-card">
+          <div class="ent-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="#0D9373" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="ent-title">Dedicated Support</h3>
+          <p class="ent-desc">Direct, white-glove access to documentation experts. Dedicated migration support and elevated SLAs.</p>
+        </div>
+        <div class="ent-card">
+          <div class="ent-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="#0D9373" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3 class="ent-title">Analytics & Insights</h3>
+          <p class="ent-desc">Track how developers engage with your docs. Identify gaps, top-searched content, and where users drop off.</p>
+        </div>
+      </div>
+      <div class="enterprise-cta">
+        <a href="#" class="btn-outline">Talk to sales →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ CASE STUDIES ═══════════════════════════════════════ -->
+  <section class="case-studies">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">Customers</div>
+        <h2 class="section-title">From frontier AI to Fortune 500</h2>
+        <p class="section-sub">Leaders across industries scale knowledge with Mintlify.</p>
+      </div>
+      <div class="cs-grid">
+        <div class="cs-card cs-featured">
+          <div class="cs-logo-area">
+            <div class="cs-company-logo perplexity-logo">Perplexity</div>
+          </div>
+          <blockquote class="cs-quote">
+            "Mintlify transformed our documentation into an AI-native developer experience that matches the pace of our product development."
+          </blockquote>
+          <div class="cs-meta">
+            <div class="cs-avatar"></div>
+            <div>
+              <div class="cs-name">Engineering Team</div>
+              <div class="cs-role">Perplexity AI</div>
+            </div>
+            <a href="#" class="cs-read">Read story →</a>
+          </div>
+        </div>
+
+        <div class="cs-card">
+          <div class="cs-logo-area">
+            <div class="cs-company-logo vercel-logo">Vercel</div>
+          </div>
+          <blockquote class="cs-quote">
+            "We scaled our entire API reference collection to meet the needs of our rapidly growing developer community."
+          </blockquote>
+          <div class="cs-meta">
+            <div class="cs-avatar v2"></div>
+            <div>
+              <div class="cs-name">Developer Relations</div>
+              <div class="cs-role">Vercel</div>
+            </div>
+            <a href="#" class="cs-read">Read story →</a>
+          </div>
+        </div>
+
+        <div class="cs-card">
+          <div class="cs-logo-area">
+            <div class="cs-company-logo glean-logo">Glean</div>
+          </div>
+          <blockquote class="cs-quote">
+            "Unified our scattered documentation into a single branded hub where enterprise customers self-serve answers."
+          </blockquote>
+          <div class="cs-meta">
+            <div class="cs-avatar v3"></div>
+            <div>
+              <div class="cs-name">Documentation Team</div>
+              <div class="cs-role">Glean</div>
+            </div>
+            <a href="#" class="cs-read">Read story →</a>
+          </div>
+        </div>
+
+        <div class="cs-card">
+          <div class="cs-logo-area">
+            <div class="cs-company-logo replit-logo">Replit</div>
+          </div>
+          <blockquote class="cs-quote">
+            "Documentation became a fast, collaborative workflow that scales beyond engineers while staying version controlled."
+          </blockquote>
+          <div class="cs-meta">
+            <div class="cs-avatar v4"></div>
+            <div>
+              <div class="cs-name">Platform Team</div>
+              <div class="cs-role">Replit</div>
+            </div>
+            <a href="#" class="cs-read">Read story →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FINAL CTA ═══════════════════════════════════════ -->
+  <section class="final-cta">
+    <div class="cta-glow-1"></div>
+    <div class="cta-glow-2"></div>
+    <div class="container">
+      <div class="cta-inner">
+        <div class="cta-badge">Get started today</div>
+        <h2 class="cta-headline">
+          Meet the next generation<br />of documentation
+        </h2>
+        <p class="cta-sub">AI-native, beautiful out-of-the-box, and built for developers.<br />Join thousands of teams shipping better docs with Mintlify.</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn-cta-primary">
+            Start for free
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M9 4L13 8L9 12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#" class="btn-cta-ghost">Talk to sales</a>
+        </div>
+        <p class="cta-note">No credit card required · Free tier available · Setup in 5 minutes</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════ FOOTER ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo footer-logo-link">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L4 6V12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12V6L12 2Z" fill="#0D9373"/>
+              <path d="M12 6L8 8V12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12V8L12 6Z" fill="white" opacity="0.9"/>
+            </svg>
+            <span class="nav-logo-text">mintlify</span>
+          </a>
+          <p class="footer-tagline">The intelligent knowledge platform.<br />Beautiful docs, built for developers.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" title="Twitter/X">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M12.6 1H15L9.9 6.9L16 15H11.1L7.4 10.2L3.1 15H0.7L6.2 8.7L0.3 1H5.3L8.7 5.4L12.6 1Z" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social-link" title="GitHub">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1C4.13 1 1 4.13 1 8C1 11.11 3.03 13.73 5.85 14.65C6.2 14.72 6.33 14.5 6.33 14.32V13.01C4.48 13.42 4.08 12.1 4.08 12.1C3.76 11.3 3.3 11.08 3.3 11.08C2.67 10.66 3.35 10.67 3.35 10.67C4.05 10.72 4.43 11.39 4.43 11.39C5.05 12.45 6.04 12.15 6.36 11.97C6.42 11.54 6.6 11.25 6.79 11.08C5.21 10.91 3.54 10.3 3.54 7.55C3.54 6.79 3.81 6.17 4.25 5.68C4.18 5.51 3.95 4.8 4.32 3.84C4.32 3.84 4.9 3.66 6.32 4.57C6.9 4.41 7.46 4.33 8 4.33C8.54 4.33 9.1 4.41 9.68 4.57C11.1 3.66 11.68 3.84 11.68 3.84C12.05 4.8 11.82 5.51 11.75 5.68C12.19 6.17 12.46 6.79 12.46 7.55C12.46 10.3 10.79 10.91 9.21 11.08C9.45 11.3 9.67 11.72 9.67 12.37V14.32C9.67 14.5 9.8 14.72 10.15 14.65C12.97 13.73 15 11.11 15 8C15 4.13 11.87 1 8 1Z" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social-link" title="LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="5.5" width="2.5" height="9.5" rx="0.5" fill="currentColor"/><circle cx="2.25" cy="2.75" r="1.5" fill="currentColor"/><path d="M6 5.5H8.5V7C9 5.5 10 5.2 11 5.2C13 5.2 14 6.4 14 8.7V15H11.5V9.2C11.5 8.1 11 7.5 9.9 7.5C8.8 7.5 8.5 8.3 8.5 9.2V15H6V5.5Z" fill="currentColor"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-cols">
+          <div class="footer-col">
+            <div class="footer-col-title">Product</div>
+            <a href="#" class="footer-link">Overview</a>
+            <a href="#" class="footer-link">Features</a>
+            <a href="#" class="footer-link">Themes</a>
+            <a href="#" class="footer-link">Pricing</a>
+            <a href="#" class="footer-link">Changelog</a>
+            <a href="#" class="footer-link">Roadmap</a>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Developers</div>
+            <a href="#" class="footer-link">Documentation</a>
+            <a href="#" class="footer-link">Quickstart</a>
+            <a href="#" class="footer-link">API Reference</a>
+            <a href="#" class="footer-link">Components</a>
+            <a href="#" class="footer-link">Open Source</a>
+            <a href="#" class="footer-link">CLI</a>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Company</div>
+            <a href="#" class="footer-link">About</a>
+            <a href="#" class="footer-link">Blog</a>
+            <a href="#" class="footer-link">Customers</a>
+            <a href="#" class="footer-link">Enterprise</a>
+            <a href="#" class="footer-link">Careers</a>
+            <a href="#" class="footer-link">Press</a>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Resources</div>
+            <a href="#" class="footer-link">Community</a>
+            <a href="#" class="footer-link">Support</a>
+            <a href="#" class="footer-link">Status</a>
+            <a href="#" class="footer-link">Security</a>
+            <a href="#" class="footer-link">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2024 Mintlify, Inc. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#" class="footer-legal-link">Privacy Policy</a>
+          <a href="#" class="footer-legal-link">Terms of Service</a>
+          <a href="#" class="footer-legal-link">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
